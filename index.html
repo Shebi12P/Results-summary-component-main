@@ -15,33 +15,56 @@
   </style>
 </head>
 <body>
-
-  Your Result
-  76
-  of 100
-
-  Great
-  You scored higher than 65% of the people who have taken these tests.
-  
-  Summary
-
-  Reaction
-  80 / 100
-
-  Memory
-  92 / 100
-
-  Verbal
-  61 / 100
-
-  Visual
-  72 / 100
-
-  Continue
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <div class="container">
+    <main>
+      <div class="card">
+        <div class="card-result">
+          <h2 class="card-result-title">Your Result</h2>
+          <div class="card-result-overall-score">
+            <span>76</span>
+            <span>of 100</span>
+          </div>
+          <div class="card-result-text">
+            <h3>Great</h3>
+            <p>You scored higher than 65% of the people who have taken these tests.</p>
+          </div>
+        </div>
+        <div class="card-summary">
+          <h2 class="card-summary-title">Summary</h2>
+          <ul class="score-list">
+            <li>
+              <span class="icon">
+                <img src="/assets/images/icon-reaction.svg" alt="thunder icon">
+              </span>
+              Reaction
+              <span class="score">80/100</span>
+            </li>
+            <li>
+              <span class="icon">
+                <img src="/assets/images/icon-memory.svg" alt="danger icon">
+              </span>
+              Memory
+              <span class="score">92/100</span>
+            </li>
+            <li>
+              <span class="icon">
+                <img src="/assets/images/icon-verbal.svg" alt="speech bubble icon">
+              </span>
+              Verbal
+              <span class="score">61/100</span>
+            </li>
+            <li>
+              <span class="icon">
+                <img src="/assets/images/icon-visual.svg" alt="eye icon">
+              </span>
+              Visual
+              <span class="score">72/100</span>
+            </li>
+          </ul>
+          <button class="card-summary-button">Continue</button>
+        </div>
+      </div>
+    </main>
   </div>
 </body>
 </html>
