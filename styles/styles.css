@@ -1,0 +1,63 @@
+:root {
+    /* Primary */
+    --light-red-color: 0, 100%, 67%;
+    --color-orangey-yellow-color: 39, 100%, 56%;
+    --green-teal-color: 166, 100%, 37%;
+    --cobalt-blue-color: 234, 85%, 45%;
+
+    /* Gradient */
+    --light-slate-blue-color: 252, 100%, 67%;
+    --light-royal-blue-color: 241, 81%, 54%;
+    --violet-blue-color: 256, 72%, 46%, 1;
+    --persian-blue-color: 241, 72%, 46%, 0;
+
+    /* Neutral */
+    --white-color: 0, 0%, 100%;
+    --pale-blue-color: 221, 100%, 96%;
+    --light-lavender-color: 241, 100%, 89%;
+    --dark-gray-blue-color: 224, 30%, 27%;
+}
+
+/*===============*/
+/* Fonts         */
+/*===============*/
+
+@font-face {
+    font-family: 'Hanken Grotesk', sans-serif;
+    src: url(/assets/fonts/static/HankenGrotesk-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Hanken Grotesk', sans-serif;
+    src: url(/assets/fonts/static/HankenGrotesk-Bold.ttf) format(tff);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Hanken Grotesk', sans-serif;
+    src: url(/assets/fonts/static/HankenGrotesk-ExtraBold.ttf);
+    font-weight: 800;
+}
+
+/*===============*/
+/* General reset */
+/*===============*/
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 500;
+    color: hsl(var(--white-color));
+}
+
+img {
+    display: block;
+    width: 100%;
+}
